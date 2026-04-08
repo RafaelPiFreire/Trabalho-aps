@@ -9,7 +9,10 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     
     <style>
-        .error { color: #dc3545; font-size: 0.9rem; }
+        .error { 
+            color: #dc3545; 
+            font-size: 0.9rem; 
+        }
     </style>
 </head>
 <body>
@@ -28,7 +31,7 @@
                     <a class="nav-link" href="piadas.html"><i class="bi bi-emoji-laughing"></i> Piadas</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="curriculo.html"><i class="bi bi-file-text"></i> Curriculo</a>
+                    <a class="nav-link" href="curriculo.html"><i class="bi bi-file-text"></i> Currículo</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +45,7 @@
                         <h4 class="mb-0"><i class="bi bi-person-lines-fill"></i> Cadastro de Currículo</h4>
                     </div>
                     <div class="card-body">
-                        <form id="formCurriculo" method="post">
+                        <form id="formCurriculo">
                             
                             <div class="form-row">
                                 <div class="form-group col-md-8">
@@ -51,7 +54,7 @@
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="idade">Idade</label>
-                                    <input type="number" class="form-control" id="idade" name="idade" min="18" max="65">
+                                    <input type="number" class="form-control" id="idade" name="idade">
                                 </div>
                             </div>
 
@@ -71,6 +74,7 @@
                                 </div>
                             </div>
 
+                            <!-- Campo corrigido: Área de Interesse agora é SELECT -->
                             <div class="form-group">
                                 <label for="area">Área de Interesse</label>
                                 <textarea class="form-control" id="area" name="area" rows="1"></textarea>
